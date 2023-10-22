@@ -30,19 +30,19 @@ var mySwiper = new Swiper('.testimonials .swiper-container', {
 });
 
 if(window.screen.width < 768){
-    window.dressesSlider = new Swiper('.dresses .swiper-container', {
+    window.DresscodeesSlider = new Swiper('.Dresscodees .swiper-container', {
         speed: 400,
         spaceBetween: 20,
         autoHeight: true,
         pagination: {
-            el: '.dresses .swiper-pagination',
+            el: '.Dresscodees .swiper-pagination',
             type: 'bullets',
         },
     });
 }
 
-var dressesSliderContainer  = $_('.dresses__gallery-wrapper');
-var categories              = $_('.dresses__gallery-controls ul');
+var DresscodeesSliderContainer  = $_('.Dresscodees__gallery-wrapper');
+var categories              = $_('.Dresscodees__gallery-controls ul');
 categories.addEventListener('click', function(e){
     if(e.target.nodeName !== 'LI' || e.target.className.indexOf('js_active') !== -1) return;
 
@@ -51,20 +51,20 @@ categories.addEventListener('click', function(e){
 
     var template = '';
     var sliderKey = e.target.dataset.key;
-    var buttonHTML = $_('.dresses__card-action').outerHTML;
+    var buttonHTML = $_('.Dresscodees__card-action').outerHTML;
     
-    dressCategories[sliderKey].forEach(function (item) {
-        template += "<div class=\"dresses__card swiper-slide\">\n                        <div class=\"dresses__card-image\">\n                            <img src=\"" + item.img + "\" alt=\"\">\n                            <span class=\"dressess__card-discount\">" + item.discount + "</span>\n                        </div>\n                        <div class=\"dresses__card-content\">\n                            <h3 class=\"dresses__card-title\">" + item.title + "</h3>\n                            <p class=\"dresses__card-description\">" + item.description + "</p>\n" + buttonHTML + "</div>\n                    </div>";
+    DresscodeCategories[sliderKey].forEach(function (item) {
+        template += "<div class=\"Dresscodees__card swiper-slide\">\n                        <div class=\"Dresscodees__card-image\">\n                            <img src=\"" + item.img + "\" alt=\"\">\n                            <span class=\"Dresscodeess__card-discount\">" + item.discount + "</span>\n                        </div>\n                        <div class=\"Dresscodees__card-content\">\n                            <h3 class=\"Dresscodees__card-title\">" + item.title + "</h3>\n                            <p class=\"Dresscodees__card-description\">" + item.description + "</p>\n" + buttonHTML + "</div>\n                    </div>";
     });
 
-    try{window.dressesSlider.destroy(true, true);}catch(e){}
-    dressesSliderContainer.innerHTML = template;
+    try{window.DresscodeesSlider.destroy(true, true);}catch(e){}
+    DresscodeesSliderContainer.innerHTML = template;
     if(window.screen.width > 768) return;
-    window.dressesSlider = new Swiper('.dresses .swiper-container', {
+    window.DresscodeesSlider = new Swiper('.Dresscodees .swiper-container', {
         speed: 400,
         spaceBetween: 20,
         pagination: {
-            el: '.dresses .swiper-pagination',
+            el: '.Dresscodees .swiper-pagination',
             type: 'bullets',
         },
     });

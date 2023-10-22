@@ -100,20 +100,20 @@ a.button{
     margin-bottom: 30px;
     margin-left: 47%;
 }
-.dresses__description{
+.Dresscodees__description{
     font-size: 26px;
     font-weight: 300;
     text-align: center;
     margin-bottom: 60px;
 }
-.dresses__gallery-controls ul{
+.Dresscodees__gallery-controls ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
     padding-left: 0;
     overflow-x: auto;
 }
-.dresses__gallery-controls li{
+.Dresscodees__gallery-controls li{
     padding: 10px 20px;
     cursor: pointer;
     border-bottom: 1px solid #eee;
@@ -121,34 +121,34 @@ a.button{
     color: #999;
     white-space: nowrap;
 }
-.dresses__gallery-controls li:hover{
+.Dresscodees__gallery-controls li:hover{
     color: #555;
     border-color: #aaa;
 }
-.dresses__gallery-controls .js_active{
+.Dresscodees__gallery-controls .js_active{
     color: #333 !important;
     border-color: #555 !important;
 }
-.dresses__gallery-wrapper{
+.Dresscodees__gallery-wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 @media screen and (min-width: 768px){
-    .dresses__card{
+    .Dresscodees__card{
         flex: 0 0 32.5%;
         margin-right: 0 !important;
     }
 }
-.dresses__card{
+.Dresscodees__card{
     text-align: center;
     position: relative;
     overflow: hidden;
 }
-.dresses__card-image{
+.Dresscodees__card-image{
     position: relative;
 }
-.dressess__card-discount{
+.Dresscodeess__card-discount{
         position: absolute;
     right: 11px;
     color: #8a0000;
@@ -166,10 +166,10 @@ a.button{
     box-sizing: border-box;
     box-shadow: 1px 1px 1px #eee;
 }
-.dresses__card img{
+.Dresscodees__card img{
     max-width: 100%;
 }
-.dresses__card-image::before {
+.Dresscodees__card-image::before {
     position: absolute;
     top: 0;
     left: -85%;
@@ -183,7 +183,7 @@ a.button{
     -webkit-transform: skewX(-25deg);
     transform: skewX(-25deg);
 }
-.dresses__card-image:hover::before {
+.Dresscodees__card-image:hover::before {
     -webkit-animation: shine .75s;
     animation: shine .75s;
 }
@@ -198,18 +198,18 @@ a.button{
     }
 }
 
-.dresses__card-title{
+.Dresscodees__card-title{
     margin-top: 20px;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
     margin-bottom: 15px;
 }
-.dresses__card-description{
+.Dresscodees__card-description{
     margin: 0 0 10px;
     color: #333;
 }
-.dresses__card-action{
+.Dresscodees__card-action{
     margin-bottom: 50px;
 }
 
@@ -395,15 +395,15 @@ a.button{
 .swiper-wrapper{
     display: flex;
 }
-.footer .contacts__address{
+.footer .contacts__adDresscode{
     font-weight: bold;
 }
-.dresses ::-webkit-scrollbar {
+.Dresscodees ::-webkit-scrollbar {
     width: 1px;
     height: 1px
 }
 
-.dresses ::-webkit-scrollbar-thumb {
+.Dresscodees ::-webkit-scrollbar-thumb {
     background-color: #333;
 }
 @media screen and (max-width: 1280px){
@@ -489,10 +489,10 @@ a.button{
     body{
         font-size: 14px;
     }
-    .dresses__gallery-controls ul{
+    .Dresscodees__gallery-controls ul{
         justify-content: flex-start;
     }
-    .dresses__gallery-controls li{
+    .Dresscodees__gallery-controls li{
         margin-bottom: 10px;
     }
     .header__top{
@@ -530,15 +530,15 @@ a.button{
     .description_small{
         font-size: 14px;
     }
-    .dresses__gallery-wrapper{
+    .Dresscodees__gallery-wrapper{
         flex-wrap: nowrap;
         justify-content: unset;
     }
-    .dresses__description{
+    .Dresscodees__description{
         font-size: 17px;
         margin-bottom: 0;
     }
-    .dresses__card-title{
+    .Dresscodees__card-title{
         font-size: 24px;
         margin: 15px 0 10px;
     }
@@ -592,7 +592,7 @@ a.button{
     .slider__wrapper .swiper-wrapper{
         padding-bottom: 40px;
     }
-    .dressess__card-discount{
+    .Dresscodeess__card-discount{
         transform: scale(0.9) translate(10%, -10%);
     }
 }
@@ -603,15 +603,15 @@ a.button{
 .testimonials .swiper-pagination-bullet-active{
     background: #555;
 }
-.dresses .swiper-pagination-bullet{
+.Dresscodees .swiper-pagination-bullet{
     background: #fff;
     opacity: 1;
     box-shadow: 1px 1px 5px #777;
 }
-.dresses .swiper-pagination-bullet-active{
+.Dresscodees .swiper-pagination-bullet-active{
     background: #333;
 }
-.dresses .swiper-container-horizontal>.swiper-pagination-bullets{
+.Dresscodees .swiper-container-horizontal>.swiper-pagination-bullets{
     bottom: 200px;
 }
 .button:after, .button:before{
