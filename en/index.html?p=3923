@@ -512,7 +512,7 @@ window.onpageshow = function(event) {
 							<span class="fake-hover">Book an appointment</span>
 							<span class="icon-pulsate">
 								<i class="pulsate-icon-ani"></i>
-									<img decoding="async" class="hidden-sm" src="https://ly-Dresscode.store/wp-content/uploads/2019/02/icon-Dresscode.svg" alt="">
+									<img decoding="async" class="hidden-sm" src="https://ly-Dresscode.store/wp-content/uploads/2019/02/icon-dress.svg" alt="">
 									<span class="icon-pulsate-text visible-sm">Book an appointment</span>
 									<i class="pulsate-icon-ani2"></i>
 							</span>
